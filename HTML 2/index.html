@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="nav.css">
+ <link rel="stylesheet" href="screen.css"> 
+</head>
+<body>
+ 
+ 
+  <div class="openMenue">
+      <button id="open">
+       &#9776;
+     </button>  
+  </div>
+ 
+ <img src="ss.jpg" alt="ss.jpg" class ="img">
+ 
+  <div id="myNav" class="overlay">
+      
+    <div class="container">
+      <a class="openPageButton" data-element-id="add-Product-Page">اضافه حساب</a>
+     <a href="#">دروسي جافا</a>
+    <a href="#">مواضيع css</a>
+    <a href="#">مواضيع hrml</a>
+    <a href="dom.html">قوالب مهمه</a>
+    
+    
+   </div> 
+    <!--CATEGORY FIRM-->
+  </div>  
+ 
+<div class="container-box-parent">
+ <div class="column"> 
+  <div class="box"> 
+  <div class="contant">
+  <p class="abdullah">
+    im Abdulla from yemen is ald you 13 is taiz im student 
+  </p>
+</div>
+</div>
+  <div class="box">
+    <div class="contant">
+      <div class="m">
+      <p>css</p>
+      <p>html</p>
+      <p>php</p>
+      <p>java</p>
+      <p>c++</p>
+      <p>sql</p>
+      <p>MySQL</p>
+      <p>js</p>
+    </div>
+  </div>
+  </div>
+    <div class="box">
+    <div class="contant">
+      <p>css</p>
+      <p>html</p>
+      <p>php</p>
+      <p>java</p>
+      <p>c++</p>
+      <p>sql</p>
+      <p>MySQL</p>
+      <p>js</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<style>
+  .video .nav{
+    font-size: 9px;
+    background-color:rgba(19,1,10,0.3);
+    
+  }
+  
+  .video {
+    margin: 20px;
+  }
+  .container-box {
+    margin: 10px;
+  }
+  .vi{
+    padding: 10px;
+  }
+  
+  
+  .p{
+  text-align: center;
+  border-bottom: 1px solid black;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+  .button button {
+    margin: 3px;
+    width:100%;
+  }
+  
+  video{
+    padding: 3px;
+    box-shadow: 3px 2px 6px  #7E809A;
+    background-color:rgba(19,1,10,0.3);
+    border-radius: 10px;
+  }
+  .bor{
+   border: 1px solid black;
+    border-top: none;
+    
+  }
+  
+</style>
+
+<section class="video">
+  <div class="bor">
+    
+  <p class="nav">1</p>
+  <p class="p">product</p>
+  <div class="container-box">
+    
+    <div>
+     <ul>
+       <li>css</li>
+       <li>html</li>
+       <li>js</li>
+     </ul>
+     
+   </div>
+    
+
+  <div class="vi">
+    
+  <video src="a.mp4" width="100%" controls>
+  </video>
+  
+  </div>
+  
+  <div class="button">
+    <button>display</button>
+  </div>
+  
+</div>
+
+</div>
+</section>
+
+  <section class="footer">
+    
+       <div class="footer-box">
+          <h3>Contact</h3>
+          <div class="contact">
+            <span><i class='bx bxs-map'></i>250 New York City, USA 10001</span>
+            <span><i class='bx bxs-phone'></i>00967 776495595</span>
+            <span><i class='bx bxs-envalope'></i>Coffee@shop.com</span>
+          </div>
+        </div>
+  </section>
+ 
+<script>
+
+let open= document.getElementById("open");
+
+open.addEventListener("click",() => {
+  openNav();
+});
+
+
+function openNav() {
+  document.getElementById("myNav").style.transform = "translateX(0)";
+  
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.transform = 'translateX(-100%)';
+  
+}
+
+
+
+document.addEventListener('click', function(event) {
+  if (event.target.id !== 'open' && event.target.id !== 'myNav') {
+    closeNav();
+  }
+});
+
+
+
+
+</script>
+</body>
+</html>

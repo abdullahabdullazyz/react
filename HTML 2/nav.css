@@ -1,0 +1,84 @@
+
+   *{
+     padding: 0;
+     margin: 0;
+   }
+   /*
+  .open{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed; 
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .open button {
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+ */ 
+ .screen{
+    background:rgba(100,100,150,0.2);
+     position:fixed;
+     z-index:100;
+     width:100%;
+     height:100%;
+ }
+ 
+    #myNav {
+    display: block;
+     transform: translateX(-100%);   
+   /*  background:rgba(100,100,150,0.1);*/
+    background:url("ss.jpg");
+    background-repeat: no-repeat;
+    
+     position: fixed;
+      z-index: 1000;
+      left:0;
+      top:49px;
+      bottom: 0;
+      width: 70%;
+      transition: transform 0.3s ease-in-out; 
+      /* Add transition for smooth opening */
+    }
+    
+    #myNav .container {
+      margin-top: 25px;
+      padding: 20px;
+      list-style: none;
+    }
+    
+    
+     #myNav .container a {
+     display: block;
+      color:white;  
+             
+     
+      padding: 12px 16px;
+    background:rgba(100,1
+        150,150,0.1); 
+       background:rgba(100,100,150,0.3);
+      
+      text-decoration: none;
+      font-size: 10px;
+      margin: 3px;
+      border-radius: 5px;
+      box-shadow: 0 2px 3px  #7E809A;
+      margin: 13px;
+    }
+
+
+    #myNav .container a:hover {
+    border: 1px solid #0076ff;
+    border-bottom:1px solid #0076ff;
+    border-top:1px solid #0076ff;
+    
+    }

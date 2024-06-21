@@ -1,0 +1,33 @@
+.App {
+  position: fixed;
+  text-align: center;
+  top:30px;
+  left:0;
+  bottom:0;
+  width:80%;
+  display:block;
+  background: blue;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+
+.form-control {
+  max-width: 300px;
+}
+
+
+.btn-outline-success {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: white;
+  color: #28a745;
+}
